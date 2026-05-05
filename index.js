@@ -21,7 +21,7 @@ const users = [
 app.get('/health', (req, res) => {
   res.json({
     status: 'OK',
-    version: "v2.0",
+    version: "v3",
     uptime: process.uptime(),
     timestamp: new Date().toISOString()
   });
